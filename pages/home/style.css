@@ -1,0 +1,71 @@
+@import url("../../css/variaveis.css");
+@import url("../../css/header.css");
+@import url("../../css/content.css");
+@import url("../../css/contact.css");
+@import url("../../css/footer.css");
+@import url("../../css/white-link.css");
+
+.banner-img {
+  position: relative;
+  width: 1110px;
+  height: 600;
+  margin: 54px 0 149px;
+}
+
+.container-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 445px;
+  height: 357px;
+  position: absolute;
+  top: 56.3%;
+  right: 58%;
+
+  background-color: var(--secundary-color-white);
+}
+
+.box-text {
+  padding: 56px 0 0 27px;
+
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.45px;
+}
+
+.container-link {
+  width: 200px;
+  height: 48px;
+
+  background-color: var(--primary-color-blue);
+}
+
+.link-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.link-button:visited {
+  color: white;
+}
+
+.link-img {
+  margin-right: 2rem;
+}
+
+.container-link:hover {
+  background-color: var(--primary-color-green);
+}
+
+.container-link:hover img {
+  filter: brightness(1.75);
+}

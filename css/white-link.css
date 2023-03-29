@@ -1,0 +1,27 @@
+.white-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 162px;
+  height: 48px;
+  border: 1px solid var(--primary-color-gray);
+
+  font-family: var(--secundary-font);
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  background-color: var(--background-color);
+}
+
+.white-link:hover {
+  background-color: var(--primary-color-gray);
+  color: var(--secundary-color-white);
+}
+
+.wider-link {
+  width: 204px;
+  align-self: center;
+}

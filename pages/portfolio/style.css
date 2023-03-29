@@ -1,0 +1,20 @@
+@import url("../components/content.css");
+
+.portifolio {
+  display: flex;
+  justify-content: space-between;
+  gap: 125px;
+
+  width: 1015px;
+  margin-top: 80px;
+}
+
+.preview-img {
+  width: 540px;
+  height: 500px;
+}
+
+.bookmark,
+.fylo {
+  order: 1;
+}

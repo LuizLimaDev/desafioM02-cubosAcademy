@@ -1,0 +1,46 @@
+@import url("slider.css");
+
+.container-project {
+  display: inline-flex;
+  gap: 125px;
+}
+
+.text-highlights {
+  margin: 30px 0 32px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.project-details {
+  width: 635px;
+}
+
+.container-details {
+  width: 635px;
+}
+
+.details-title {
+  margin-bottom: 28px;
+
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: -0.29px;
+}
+
+.details-text {
+  margin-bottom: 40px;
+
+  font-size: 15px;
+}
+
+.details-text span {
+  text-decoration: underline;
+}
+
+.details-img-preview {
+  width: 635px;
+  margin-bottom: 64px;
+}

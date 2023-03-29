@@ -1,0 +1,22 @@
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 1111px;
+  height: 32px;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 279px;
+
+  text-transform: uppercase;
+}
+
+.header-item:hover {
+  color: var(--primary-color-green);
+}
